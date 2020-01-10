@@ -1,9 +1,9 @@
 ﻿__all__= ['econ','hydro','geo','modeling']
 
-print("Loading eco-eng package 3...")
+print("Loading ecoe package 1...")
 
 # Load subpackage contents into their respective namespaces 
-from eco_eng.econ import *
-from eco_eng.geo import *
-from eco_eng.hydro import *
-from eco_eng.modeling import *
+from ecoe.econ import *
+from ecoe.geo import *
+from ecoe.hydro import *
+from ecoe.modeling import *

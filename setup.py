@@ -7,18 +7,18 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as fh:
     long_description = fh.read()
 
 VERSION = "0.0.13"
-print( "eco-eng version", VERSION)
+print( "ecoe version", VERSION)
 
 
 setuptools.setup(
-    name="eco_eng", # Replace with your own username
+    name="ecoe", # Replace with your own username
     version=VERSION,
     author="John Bolte",
     author_email="john.bolte@oregonstate.edu",
     description="Package for Ecological Engineering Applications",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/OSU-BEE/eco-eng",
+    url="https://github.com/OSU-BEE/ecoe",
     classifiers=[
         "License :: OSI Approved :: GNU General Public License (GPL)",
         "Operating System :: OS Independent",
@@ -40,7 +40,7 @@ setuptools.setup(
         'Programming Language :: Python :: 3.8'
     ],
 
-    keywords='ecological engineering',  # Optional
+    keywords='ecological engineering python',  # Optional
     
     # When your source code is in a subdirectory under the project root, e.g.
     # `src/`, it is necessary to specify the `package_dir` argument.
@@ -50,7 +50,7 @@ setuptools.setup(
     #        'mySubPackage1': 'mySubPackage1',
     #        'mySubPackage2': 'mySubPackage2'},
     #    packages=['mySubPackage1', 'mySubPackage2'],
-    packages=['eco_eng', 'eco_eng.econ','eco_eng.geo','eco_eng.hydro', 'eco_eng.modeling'],
+    packages=['ecoe', 'ecoe.econ','ecoe.geo','ecoe.hydro', 'ecoe.modeling'],
     python_requires='>=3.5',
     install_requires=['numpy', 'pandas', 'matplotlib'],  # Optional
 )

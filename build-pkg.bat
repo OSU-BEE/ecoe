@@ -1,5 +1,5 @@
 c:
-cd \PythonCodes\eco_eng
+cd \PythonCodes\ecoe
 
 del /Q dist\*.*
 
@@ -7,4 +7,4 @@ del /Q dist\*.*
 c:\Python37\python setup.py sdist bdist_wheel
 
 :: copy to PyPI
-:: c:\Python37\python -m twine upload dist/*
+c:\Python37\python -m twine upload dist/*
